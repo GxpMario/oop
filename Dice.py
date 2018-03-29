@@ -11,7 +11,7 @@ class Dice():
         self.last_num = last_num
 
     def __check_dice(self):
-        """ private method the check the validity of the dice """
+        """ private method to check the validity of the dice """
         if self.last_num >= self.first_num >= 0:
             return True
         else:
